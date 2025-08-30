@@ -95,12 +95,14 @@
     background-color: white;
     height: 120px;
     justify-content: center;
+    text-align: center;
 }
 
 .detalheSlots {
     width: 50%;
     display: flex;
     font-size: 0.7rem;
+    
 }
 
 .detalheSlots ol {
