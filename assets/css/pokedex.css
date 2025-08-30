@@ -96,6 +96,7 @@
     margin: .5rem;
     padding: 0.6rem; /* Mantido da sua versão */
     border-radius: 1rem;
+    box-shadow: 1px 1px 10px black;
 }
 
 .detalhes {
@@ -208,6 +209,7 @@
     .content{
         width: 75vw;
     }
+
 }
 
 @media screen and (min-width: 376px) {
@@ -217,8 +219,13 @@
 
     .detalheSlots,
     .tituloAbilite {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
+
+        .pokemon .detail img {
+    max-width: 70%;
+    height: 70px;
+}
 }
 
 @media screen and (min-width: 576px) {
