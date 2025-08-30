@@ -6,7 +6,7 @@
 
 body {
     background-color: #dc0b0bc4;
-     background-blend-mode: color-burn;
+    
       background-image: url("basicbg.png");
     background-size: 350px;
 }
