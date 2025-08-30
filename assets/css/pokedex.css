@@ -218,6 +218,18 @@
         width: 75vw;
     }
 
+    .pokemon .detail {
+        gap: 8px 8px;
+    justify-content: center;
+}
+
+       .pokemon .detail img {
+        margin-bottom: 10px;
+    max-width: 60%;
+    height: 70px;
+}
+
+
 }
 
 @media screen and (min-width: 376px) {
@@ -237,8 +249,13 @@
     }
 
         .pokemon .detail img {
-    max-width: 70%;
+            margin-bottom: 10px;
+    max-width: 60%;
     height: 70px;
+}
+    .pokemon .detail {
+        gap: 8px 8px;
+    justify-content: center;
 }
 }
 
