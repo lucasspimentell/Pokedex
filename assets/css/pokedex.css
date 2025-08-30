@@ -78,6 +78,18 @@
     background-color: #f9aec7;
 }
 
+.content h1{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    color: rgb(219, 219, 6);
+    font-size: 2.3rem;
+    font-weight: bolder;
+    filter: drop-shadow(4px 3px 0px rgb(2, 2, 173));
+}
+
 .pokemon {
     display: flex;
     flex-direction: column;
@@ -188,14 +200,17 @@
     border-radius: 8px;
 }
 
-@media screen and (max-width: 374px) {
+@media screen and (max-width: 375px) {
     .detalheSlots,
     .tituloAbilite {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
+    }
+    .content{
+        width: 75vw;
     }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 376px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
     }
