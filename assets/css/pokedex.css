@@ -82,6 +82,7 @@
     display: flex;
     flex-direction: column;
     margin: .5rem;
+<<<<<<< HEAD
     padding: 0.6rem;
     border-radius: 1rem;
 }
@@ -136,6 +137,17 @@
     opacity: .3;
     text-align: right;
     font-size: 1rem;
+=======
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.pokemon .number {
+    color: #000;
+    opacity: .3;
+    text-align: right;
+    font-size: .625rem;
+>>>>>>> 627a1ca6aebeb81b88429225fe0a5754e6a58a33
 }
 
 .pokemon .name {
@@ -172,8 +184,11 @@
     height: 70px;
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 627a1ca6aebeb81b88429225fe0a5754e6a58a33
 .pagination {
     display: flex;
     flex-direction: row;
@@ -192,6 +207,7 @@
     border: none;
     border-radius: 1rem;
 }
+<<<<<<< HEAD
 @media screen and (max-width: 374px) {
     
         .detalheSlots, .tituloAbilite{
@@ -214,6 +230,13 @@
     
 }
 
+=======
+
+@media screen and (min-width: 380px) {
+    .pokemons {
+        grid-template-columns: 1fr 1fr;
+    }
+>>>>>>> 627a1ca6aebeb81b88429225fe0a5754e6a58a33
 }
 
 @media screen and (min-width: 576px) {
